@@ -4,11 +4,11 @@ Model viewer application
 
 ## Installation
 
-TODO: Describe the installation process
+Use a compatible online web browser to interact with Paper Thin Tech Earbuds
 
 ## Usage
 
-TODO: Write usage instructions
+Use to learn about the ear buds new and improved design
 
 ## Contributing
 
@@ -20,11 +20,11 @@ TODO: Write usage instructions
 
 ## History
 
-TODO: Write history
+Made on OCtober 25, 2023
 
 ## Credits
 
-Rodrigo Rocha de Freitas
+Abdullah Sultan
 
 ## License
 
