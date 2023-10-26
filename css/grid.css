@@ -30,7 +30,7 @@ body, p, h1, h2, h3, h4, h5 {
 }
 
 .box {
-   background-color: powderblue;
+   background-color: rgb(15, 15, 15);
    color: rgb(27, 27, 27);
    border-radius: 5px;
    padding: 20px;
@@ -39,16 +39,6 @@ body, p, h1, h2, h3, h4, h5 {
    margin-bottom:10px;
  }
 
- .box2 {
-   background-color: powderblue;
-   color: rgb(27, 27, 27);
-   border-radius: 5px;
-   padding: 20px;
-   padding-bottom: 60px;
-   text-align: center;
-   margin-top: 10px;
-   margin-bottom:10px;
- }
 /* ---Mobile Library Grid Styles--- */
 
 /* Note if you are using a grid size of 1920, you need to change the value of 1200px to 1920px on line 50 and 57 */
@@ -57,14 +47,14 @@ body, p, h1, h2, h3, h4, h5 {
    /* set this container as a grid, with 3 columns
    the other grid will sit in the middle column, this allows for overlapping content */
    display: grid; 
-	grid-template-columns: 1fr minmax(0, 1200px) 1fr;  
+	grid-template-columns: 1fr minmax(0, 1920px) 1fr;  
 }
 
  .grid-con { 
    display: grid;
    grid-template-columns: repeat(4, minmax(0, 1fr));
    grid-column-gap: 30px;
-   max-width: 1200px;
+   max-width: 1920px;
    margin: 0 auto;
    padding-left: 15px;
    padding-right: 15px;
