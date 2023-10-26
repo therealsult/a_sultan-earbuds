@@ -6,19 +6,19 @@
 
   const infoBoxes = [
     {
-      title: "Comfortable Ear Cushions",
-      text: "Comfortable ear bud tips are typically made from various materials designed to provide a comfortable and secure fit. Paper Thin Tech EarBus offer many different ear bud tips made of different material. We offer memory foam, gel, silicone, velur or cloth and our in house secert hybrid material for you to choose from.",
+      title: "Comfortable EarBud Tips",
+      text: "Comfortable ear bud tips are typically made from various materials designed to provide a comfortable and secure fit and are crucial to provinding the best sound quality. Paper Thin Tech EarBus offer many different ear bud tips made of different material. We offer memory foam, gel, silicone, velur or cloth and our in house secert hybrid material for you to choose from.",
       image: "ri-headphone-line",
     },
 
     {
         title: "Super Fast Charging",
-        text: "Our Paper Thin Tech EarBuds are capable of charging at super fast speed rates handeling up to 60w charging pulgs. They will charge from 20% to 85% in 15 minutes guaranteed. ",
+        text: "Our Paper Thin Tech EarBuds are capable of charging at super fast speed rates handeling up to 60w charging pulgs. They will charge from 20% to 90% in 15 minutes guaranteed. ",
         image: "ri-battery-2-charge-fill",
     },
 
     {
-        title: "24 Karat Gold",
+        title: "24 Karat",
         text: "Our top of the line model ear buds inculde 2 grams of 24 karat gold on each bud. This model is produced to provide comfort and while enhancing your look at the same time.",
         image: "ri-vip-diamond-fill",
     },
