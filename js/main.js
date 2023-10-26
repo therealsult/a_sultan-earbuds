@@ -40,24 +40,23 @@
     function loadInfo() {
       infoBoxes.forEach((infoBox, index) => {
         let selected = document.querySelector(`#hotspot-${index+1}`);
-  
-        //IMAGE ICON
-        //Loading icons using classes from the icon library Remix Icon (I'll use the same library for my portfolio)
-        //The class ri-3x increases the icon size by 3x
-        //the infobox.image is loadded from the array
-        const hotspotImg = document.createElement("i");
-        hotspotImg.classList.add("ri-3x", infoBox.image);
+
 
         //HOTSPOT TITLE
         const hotspotName = document.createElement("h3");
         hotspotName.textContent = infoBox.title;
+          
+        //IMAGE ICON
+        const hotspotImg = document.createElement("i");
+        hotspotImg.classList.add("ri-3x", infoBox.image);
 
         //HOTSPOT TEXT
         const hotspotDesc = document.createElement("p");
         hotspotDesc.textContent = infoBox.text;
 
-        selected.appendChild(hotspotImg);
+
         selected.appendChild(hotspotName);
+        selected.appendChild(hotspotImg);
         selected.appendChild(hotspotDesc);
       });
     }
