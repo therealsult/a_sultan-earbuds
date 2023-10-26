@@ -3,7 +3,7 @@ model-viewer {
   max-width: 1200px;
   height: 700px;
   background: rgb(255,255,255);
-  background: linear-gradient(110deg, rgba(255,255,255,1) 43%, rgba(253,212,0,1) 50%, rgba(85,71,0,0.7550419826133579) 53%, rgba(255,255,255,1) 53%);   margin: 0 auto;
+  background: linear-gradient(100deg, rgba(255,255,255,1) 20%, rgba(253,212,0,0.7018206940979517) 30%, rgba(0,0,0,0.6962184532015931) 30%, rgba(116,0,252,0.1499999658066351) 50%, rgba(0,0,0,0.7) 70%, rgba(253,212,0,0.7) 70%, rgba(255,255,255,1) 80%); 
 }
 
 .Hotspot {
