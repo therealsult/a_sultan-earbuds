@@ -1,6 +1,6 @@
-# Earbuds Sub 1 - MMED-3039
+# Earbuds
 
-Earbuds Sub 1 - 3D Model Viewer
+Model viewer application
 
 ## Installation
 
