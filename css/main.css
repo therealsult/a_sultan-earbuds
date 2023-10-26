@@ -3,7 +3,9 @@ model-viewer {
   max-width: 1200px;
   height: 700px;
   background: rgb(255,255,255);
-  background: linear-gradient(100deg, rgba(255,255,255,1) 20%, rgba(253,212,0,0.7018206940979517) 30%, rgba(0,0,0,0.6962184532015931) 30%, rgba(116,0,252,0.1499999658066351) 50%, rgba(0,0,0,0.7) 70%, rgba(253,212,0,0.7) 70%, rgba(255,255,255,1) 80%); 
+  background: linear-gradient(100deg, rgba(255,255,255,1) 20%, rgba(253,212,0,0.7018206940979517) 30%, 
+  rgba(0,0,0,0.6962184532015931) 30%, rgba(0,0,0,1) 50%, rgba(0,0,0,0.7) 70%, rgba(253,212,0,0.7) 70%, 
+  rgba(255,255,255,1) 80%); 
 }
 
 .Hotspot {
@@ -24,7 +26,6 @@ model-viewer {
   visibility: hidden;
   background: #000000;
   border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
   color: rgb(255, 255, 255);
   display: block;
   font-family: Futura, Helvetica Neue, sans-serif;
@@ -32,12 +33,10 @@ model-viewer {
   font-weight: 700;
   left: calc(100% + 1em);
   max-width: 450px;
-  overflow-wrap: break-word;
   padding: 0.5em 1em;
   position: absolute;
   top: 50%;
   width: max-content;
-  text-align: left;
   padding-top: 30px;
   border: solid rgb(255, 255, 255) 2px;
   -webkit-box-shadow: 10px 10px 17px -1px rgba(0,0,0,0.95); 
@@ -49,6 +48,7 @@ model-viewer {
   line-height: 22px;
   font-weight: 300;
   margin:30px 0 50px 0;
+  text-align: left;
 }
 
 .HotspotAnnotation h2 {
@@ -154,3 +154,87 @@ h1 {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+#introduction {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	z-index: 105;
+	background-color: #141414;
+	cursor: pointer;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+
+#introduction .image-container {
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	position: relative;
+}
+
+@media (max-width: 768px) {
+	#introduction .image-container {
+		height: 80vh;
+	}
+}
+
+#introduction .banner-logo {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 80%;
+	max-width: 1600px;
+}
+
+#introduction .slide {
+	position:fixed;
+	width: 100%;
+	height: 100%;
+	right: 0;
+	bottom: 0;
+	background: rgb(0, 0, 0);
+
+}
+
+#introduction .slide p {
+  padding-top: 200px;
+  font-size: 40px; 
+  font-family: 'Lexend', sans-serif;
+  font-weight: 100;
+  text-align: center; 
+  color: #fff;
+}
+
+#introduction .slide-2 {
+	height: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.slide-1 {
+	z-index: 999;
+}
+
+.image-container {
+	background-color: #ffde59;
+}
+
+#content {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 36px;
+	font-weight: 600;
+	color: #ffffff;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
