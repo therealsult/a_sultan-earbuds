@@ -4,7 +4,7 @@ Model viewer application
 
 ## Installation
 
-Use a compatible online web browser to interact with Paper Thin Tech Earbuds
+Use a compatible online web browser to interact with Paper Thin Tech Earbuds model
 
 ## Usage
 
