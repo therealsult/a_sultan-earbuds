@@ -9,7 +9,7 @@
   const infoBoxes = [
     {
       title: "Comfortable Ear Cushions",
-      text: "Comfortable headphone ear cushions or tips are typically made from various materials designed to provide a comfortable and secure fit. We offer different material cushions including memory foam, gel, silicone, velur and a secert hybrid material for you to choose from.",
+      text: "Comfortable ear bud tips are typically made from various materials designed to provide a comfortable and secure fit. Paper Thin Tech EarBus offer many different ear bud tips made of different material. We offer memory foam, gel, silicone, velur or cloth and our in house secert hybrid material for you to choose from.",
       image: "ri-cpu-line",
     },
 
