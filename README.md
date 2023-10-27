@@ -20,7 +20,7 @@ Use to learn about the ear buds new and improved design
 
 ## History
 
-Made on OCtober 25, 2023
+Made on October 26, 2023
 
 ## Credits
 
