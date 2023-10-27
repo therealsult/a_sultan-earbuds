@@ -6,6 +6,7 @@ model-viewer {
   background: linear-gradient(100deg, rgba(255,255,255,1) 20%, rgba(253,212,0,0.7018206940979517) 30%, 
   rgba(0,0,0,0.6962184532015931) 30%, rgba(0,0,0,1) 50%, rgba(0,0,0,0.7) 70%, rgba(253,212,0,0.7) 70%, 
   rgba(255,255,255,1) 80%); 
+  margin: 0 auto;
 }
 
 .Hotspot {
